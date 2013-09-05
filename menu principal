@@ -1,0 +1,37 @@
+Algoritmo tienda
+inicio
+  programa de una miscelanea
+  solicitar los datos
+  realizar operaciones 
+  mostrar resultados
+termina
+
+Pseudocodigo tienda
+inicio
+      variables 
+      opc, opc2, opcion,
+      escribe ("programa de una tienda")
+      escribe ("selecciona una opcion")
+      escribe ("1.-sabritas")
+      escribe ("2.-barcel")
+      escribe ("3.-sonrics")
+      escribe ("4.-ricolino")
+      escribe ("5.-salir")
+      lee (opc)
+           caso (opc)
+                (opc=1)
+                      escribe ("sabritas")
+                      escribe ("1.-chetos")
+                      escribe ("2.-doritos")
+                      escribe ("3.-fritos")
+                      escribe ("4.-regresar al menu principal")
+                      lee(opc2)
+                               caso (opc2)
+                                    (opc2=1)
+                                     escribe ("compraras chetos, con un precio de $5")
+                                     escribe ("a)si, b)no")
+                                     lee (opcion)
+                                     si (opcion=a)entonces
+                                     escribe ("¿cuantas deseas comprar?")
+                                     
+
