@@ -198,9 +198,9 @@ inicio
                                 
                   (opc=5)
                          escribe ("en un momento te muestro el total de tu compra")
+        hasta              
       fin (caso)
-      hasta
-                         escribe ("total de sabritas:",t)
+                        escribe ("total de sabritas:",t)
                          escribe ("total de barcel:",u)
                          escribe ("total de sonrics:",v)
                          escribe ("total de ricolino:",w)
