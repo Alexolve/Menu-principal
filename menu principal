@@ -9,7 +9,9 @@ termina
 Pseudocodigo tienda
 inicio
       variables 
-      opc, opc2, opcion,
+      opc, opc2,opc3,opc4,opc5,opcion,c,t,u,d,e,v,f,w:tipo real
+      total:tipo real
+      total=c+d+e+f
       escribe ("programa de una tienda")
       escribe ("selecciona una opcion")
       escribe ("1.-sabritas")
@@ -24,14 +26,182 @@ inicio
                       escribe ("1.-chetos")
                       escribe ("2.-doritos")
                       escribe ("3.-fritos")
-                      escribe ("4.-regresar al menu principal")
                       lee(opc2)
                                caso (opc2)
                                     (opc2=1)
-                                     escribe ("compraras chetos, con un precio de $5")
+                                     escribe ("compraras chetos, con un precio de $5.00")
                                      escribe ("a)si, b)no")
                                      lee (opcion)
                                      si (opcion=a)entonces
                                      escribe ("¿cuantas deseas comprar?")
+                                     lee (c)
+                                           t<---c*5
+                                     otro
+                                         siguiente
+                                     fin (si)
                                      
+                                     (opc2=2)
+                                     escribe ("compraras doritos, con un precio de $6.00")
+                                     escribe ("a)si, b)no")
+                                     lee (opcion)
+                                     si (opcion=a) entonces
+                                     escribe ("¿cuantas deseas comprar?")
+                                     lee (c)
+                                           t<---c*6
+                                    otro
+                                         siguiente
+                                     fin (si)
+                                     
+                                     (opc2=3)
+                                     escribe ("compraras fritos, con un precio de $7.00")
+                                     escribe ("a)si, b)no")
+                                     lee (opcion)
+                                     si (opcion=a)entonces
+                                     escribe ("¿cuantas deseas comprar?")
+                                     lee (c)
+                                           t<---c*7
+                                     otro
+                                          siguiente
+                                     fin (si)    
+                               fin (caso)   
+                (opc=2)
+                        escribe ("barcel")
+                        escribe ("1.-runnels")
+                        escribe ("2.-takis")
+                        escribe ("3.-chips")
+                        lee (opc3)
+                                  caso (opc3)
+                                       (opc3=1)
+                                        escribe ("compraras runnels, con un precio de $5.00")
+                                        escribe ("a)si, b)no")
+                                        lee (opcion)
+                                        si (opcion=a)entonces
+                                        escribe ("¿cuantas deseas comprar?")
+                                        lee (d)
+                                           u<---d*5
+                                        otro
+                                            siguiente
+                                        fin (si)
+                                     
+                                        (opc3=2)
+                                        escribe ("compraras takis, con un precio de $8.00")
+                                        escribe ("a)si, b)no")
+                                        lee (opcion)
+                                        si (opcion=a)entonces
+                                        escribe ("¿cuantas deseas comprar?")
+                                        lee (d)
+                                           u<---d*8
+                                        otro
+                                            siguiente
+                                        fin (si)
+                                        
+                                        (opc3=3)
+                                        escribe ("compraras chips, con un precio de $7.00")
+                                        escribe ("a)si, b)no")
+                                        lee (opcion)
+                                        si opcion=a) entonces
+                                        escribe ("¿cuantas deseas comprar?")
+                                        lee (d)
+                                            u<---d*7
+                                        otro
+                                            siguiente
+                                        fin (si)
+                                  fin (caso)  
+                (opc=3)                   
+                        escribe ("sonrics")
+                        escribe ("1.-gudupop")
+                        escribe ("2.-rokaleta")
+                        escribe ("3.-tixtix")
+                        lee (opc4)
+                                  caso (opc4)
+                                       (opc4=1)
+                                        escribe ("compraras gudupop, con un precio de $1.00")
+                                        escribe ("a)si, b)no")
+                                        lee (opcion)
+                                        si (opcion=a)entonces
+                                        escribe ("¿cuantas deseas comprar?")
+                                        lee (e)
+                                           v<---e*2
+                                        otro
+                                            siguiente
+                                        fin (si)
+                                     
+                                        (opc4=2)
+                                        escribe ("compraras rokaleta, con un precio de $3.00")
+                                        escribe ("a)si, b)no")
+                                        lee (opcion)
+                                        si (opcion=a)entonces
+                                        escribe ("¿cuantas deseas comprar?")
+                                        lee (e)
+                                           v<---e*3
+                                        otro
+                                            siguiente
+                                        fin (si)
+                                        
+                                        (opc4=3)
+                                        escribe ("compraras tixtix, con un precio de $2.00")
+                                        escribe ("a)si, b)no")
+                                        lee (opcion)
+                                        si opcion=a) entonces
+                                        escribe ("¿cuantas deseas comprar?")
+                                        lee (e)
+                                            v<---e*2
+                                        otro
+                                            siguiente
+                                        fin (si)         
+                                fin (caso) 
 
+                 (opc=4)                   
+                        escribe ("ricolino")
+                        escribe ("1.-kranky")
+                        escribe ("2.-gomilocas")
+                        escribe ("3.-panditas")
+                        lee (opc5)
+                                  caso (opc5)
+                                       (opc5=1)
+                                        escribe ("compraras kranky, con un precio de $4.00")
+                                        escribe ("a)si, b)no")
+                                        lee (opcion)
+                                        si (opcion=a)entonces
+                                        escribe ("¿cuantas deseas comprar?")
+                                        lee (f)
+                                           w<---f*3
+                                        otro
+                                            siguiente
+                                        fin (si)
+                                     
+                                        (opc5=2)
+                                        escribe ("compraras gomilocas, con un precio de $3.00")
+                                        escribe ("a)si, b)no")
+                                        lee (opcion)
+                                        si (opcion=a)entonces
+                                        escribe ("¿cuantas deseas comprar?")
+                                        lee (f)
+                                           w<---f*3
+                                        otro
+                                            siguiente
+                                        fin (si)
+                                        
+                                        (opc5=3)
+                                        escribe ("compraras panditas, con un precio de $6.00")
+                                        escribe ("a)si, b)no")
+                                        lee (opcion)
+                                        si opcion=a) entonces
+                                        escribe ("¿cuantas deseas comprar?")
+                                        lee (f)
+                                            w<---f*2
+                                        otro
+                                            siguiente
+                                        fin (si)         
+                                fin (caso)
+                                
+                  (opc=5)
+                         escribe ("en un momento te muestro el total de tu compra")
+      fin (caso)
+                         escribe ("total de sabritas:",c)
+                         escribe ("total de barcel:",d)
+                         escribe ("total de sonrics:",e)
+                         escribe ("total de ricolino:",f)
+                         escribe (total a pagar:",total)
+termina
+                 
