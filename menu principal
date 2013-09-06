@@ -11,7 +11,7 @@ inicio
       variables 
       opc, opc2,opc3,opc4,opc5,opcion,c,t,u,d,e,v,f,w:tipo real
       total:tipo real
-      total=c+d+e+f
+      total<---c+d+e+f
       escribe ("programa de una tienda")
       escribe ("selecciona una opcion")
       escribe ("1.-sabritas")
