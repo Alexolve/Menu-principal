@@ -200,10 +200,10 @@ inicio
                          escribe ("en un momento te muestro el total de tu compra")
       fin (caso)
       hasta
-                         escribe ("total de sabritas:",c)
-                         escribe ("total de barcel:",d)
-                         escribe ("total de sonrics:",e)
-                         escribe ("total de ricolino:",f)
+                         escribe ("total de sabritas:",t)
+                         escribe ("total de barcel:",u)
+                         escribe ("total de sonrics:",v)
+                         escribe ("total de ricolino:",w)
                          escribe (total a pagar:",total)
 termina
                  
