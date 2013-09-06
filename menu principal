@@ -12,6 +12,7 @@ inicio
       opc, opc2,opc3,opc4,opc5,opcion,c,t,u,d,e,v,f,w:tipo real
       total:tipo real
       total<---c+d+e+f
+      repite
       escribe ("programa de una tienda")
       escribe ("selecciona una opcion")
       escribe ("1.-sabritas")
@@ -198,6 +199,7 @@ inicio
                   (opc=5)
                          escribe ("en un momento te muestro el total de tu compra")
       fin (caso)
+      hasta
                          escribe ("total de sabritas:",c)
                          escribe ("total de barcel:",d)
                          escribe ("total de sonrics:",e)
